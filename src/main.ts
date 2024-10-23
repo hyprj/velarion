@@ -2,7 +2,7 @@ import { Resource } from './Resource';
 import './style.css'
 
 const resources = {
-  sky: "/sprites/sky.png",
+  sky: `${import.meta.env.BASE_URL}sprites/sky.png`,
   ground: "/sprites/ground.png",
   hero: "/sprites/hero-sheet.png",
   shadow: "/sprites/shadow.png",
